@@ -44,12 +44,12 @@
     openFirewall = true;
     securityType = "user";
 
-    extraConfig = ''
-      server string = Files
-      map to guest = Bad User
-      passdb backend = tdbsam
-      force group = samba
-    '';
+    settings.global = { 
+      "server string" = "Files";
+      "map to guest" = "Bad User";
+      "passdb backend" = "tdbsam";
+      "force group" = "samba";
+    };
     shares = {
       Storage = {
         comment = "Storage";
