@@ -17,6 +17,7 @@ guest                 IN      NS         ns1.xhain.space.
 files                 IN      A          192.168.42.2
 laser                 IN      A          192.168.42.3
 pve                   IN      A          192.168.42.4
+ccu3                  IN      A          192.168.42.5
 
 artnet                IN      A          192.168.42.9
 
