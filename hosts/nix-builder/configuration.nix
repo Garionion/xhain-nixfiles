@@ -21,7 +21,7 @@
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFk68ujMEgPVglDNnxqrht/0piGwofQy4GmPjgq4CvUV reimerei@silence"
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIK8wISQGiy6weaMg4tFiMHXlK71iHGoZkpfJQVNC4Up root@silence"
-      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHvSWbhrIzRaCiKgBZd/AeuuIPZmRI2Ry8MtJYSyNdbs danimo"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGiG+cRC9kMZwN/FtOmhIWfCwOjyRXbypVA6H854GW2i danimos xhain nix build key"
     ];
   };
 
