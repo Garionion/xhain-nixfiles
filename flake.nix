@@ -1,7 +1,7 @@
 {
   inputs = {
     #nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05-small";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11-small";
     sops-nix = {
       url = "github:Mic92/sops-nix";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -12,6 +12,7 @@
     };
 
     flakelight.url = "github:nix-community/flakelight";
+    flakelight.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = { nixpkgs, sops-nix, kea-lease-viewer, flakelight, ... }:
     flakelight ./. {
