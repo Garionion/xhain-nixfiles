@@ -27,7 +27,6 @@ in
 {
   systemd.services."bind-create-dynamic-zones" = {
     before = [ "bind.service" ];
-    after = [ "network.target" ];
     wantedBy = [ "bind.service" ];
     script = ''
     mkdir -p /var/lib/bind
